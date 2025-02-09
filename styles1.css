@@ -86,8 +86,13 @@ body {
   
   .contact-icon {
     text-decoration: none;
+    color: black;
     margin: 0 15px;
   }
   
-
+  .contact .row {
+      justify-content:center;
+      display:flex;
+      flex-wrap:wrap;
+  }
   
