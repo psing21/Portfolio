@@ -34,7 +34,7 @@ Pronouns: She/Her
 
 ### 🌐 Connect with Me 💬
 
-- Email: psing21@unh.newhaven.edu 
-- LinkedIn: https://www.linkedin.com/in/priyanka-singh-4076427a/
-- GitHub: https://github.com/psing21/Portfolio
+- [Email](psing21@unh.newhaven.edu)
+- [LinkedIn](https://www.linkedin.com/in/priyanka-singh-4076427a/)  
+- [GitHub Portfolio](https://github.com/psing21/Portfolio) 
   
