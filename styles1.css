@@ -79,7 +79,7 @@ body {
   }
   
   .circle-icon:hover {
-    background: #007bff;
+    background: #d2b48c;
     color: white;
     transform: scale(1.1);
   }
