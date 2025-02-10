@@ -65,26 +65,6 @@ header {
     color: #666;
 }
 
-.circle-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #e8e8e8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    font-size: 28px;
-    color: #664502;  /* Default brown color for icons */
-    margin: 10px;  /* Spacing between icons */
-}
-
-.circle-icon:hover {
-    background: #d2b48c;  /* Light brown background on hover */
-    color: white;  /* Icon color changes to white on hover */
-    transform: scale(1.1);
-}
-
 .contact-icon {
     text-decoration: none;
     color: black;
@@ -98,3 +78,32 @@ header {
     align-items: center;
     height: 100%;
 }
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 28px;
+    color: #8B4513;  /* True brown color */
+    margin: 10px;
+}
+
+.circle-icon:hover {
+    background: #d2b48c;  /* Light brown background on hover */
+    color: white;  /* Icon text turns white on hover */
+    transform: scale(1.1);
+}
+
+.social-links a {
+    color: #8B4513;  /* Set default true brown color */
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4B3621;  /* Darker brown on hover */
+}
+
