@@ -88,7 +88,7 @@ header {
     justify-content: center;
     transition: all 0.3s ease;
     font-size: 28px;
-    color: #8B4513;  /* True brown color */
+    color: #665202;  /* True brown color */
     margin: 10px;
 }
 
@@ -99,7 +99,7 @@ header {
 }
 
 .social-links a {
-    color: #8B4513;  /* Set default true brown color */
+    color: #665202;  /* Set default true brown color */
     transition: color 0.3s ease;
 }
 
