@@ -6,66 +6,66 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #333;
-  }
-  
-  header {
+}
+
+header {
     background: #474343;
     color: white;
     padding: 20px;
     text-align: center;
-  }
-  
-  .profile {
+}
+
+.profile {
     text-align: center;
-  }
-  
-  .profile-img {
+}
+
+.profile-img {
     width: 200px;
     height: 250px;
     border-radius: 50%;
     margin-bottom: 10px;
     border: 5px solid #2c2828;
-  }
-  
-  .social-links a {
+}
+
+.social-links a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-  }
-  
-  #about, #skills {
+}
+
+#about, #skills {
     padding: 20px;
-  }
-  
-  .skill {
+}
+
+.skill {
     margin: 10px 0;
     background: #f9f7f7;
     border-radius: 5px;
     overflow: hidden;
-  }
-  
-  .skill .progress {
+}
+
+.skill .progress {
     height: 20px;
     background: #a7aca7;
-  }
+}
 
-  .contact {
+.contact {
     padding: 60px 0;
-    background:#f7f7f7;
+    background: #f7f7f7;
     text-align: center;
-  }
-  
-  .section-title h2 {
+}
+
+.section-title h2 {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  .section-title p {
+}
+
+.section-title p {
     font-size: 18px;
     color: #666;
-  }
-  
-  .circle-icon {
+}
+
+.circle-icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -75,39 +75,26 @@ body {
     justify-content: center;
     transition: all 0.3s ease;
     font-size: 28px;
-    color: #555;
-  }
-  
-  .circle-icon:hover {
-    background: #d2b48c;
-    color: white;
+    color: #a52a2a;  /* Default brown color for icons */
+    margin: 10px;  /* Spacing between icons */
+}
+
+.circle-icon:hover {
+    background: #d2b48c;  /* Light brown background on hover */
+    color: white;  /* Icon color changes to white on hover */
     transform: scale(1.1);
-  }
-  
-  .contact-icon {
+}
+
+.contact-icon {
     text-decoration: none;
     color: black;
     margin: 0 15px;
-  }
-  
-  .contact .row {
-      justify-content:center;
-      display:flex;
-      flex-wrap:wrap;
-      align-items:center;
-      height: 100%;
-  }
-  .circle-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #e8e8e8;
-    display: flex;
-    align-items: center;
+}
+
+.contact .row {
     justify-content: center;
-    transition: all 0.3s ease;
-    font-size: 28px;
-    color: #a52a2a;
-    margin: 10px; /* Add margin for spacing between icons */
-   }
-  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
