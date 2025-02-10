@@ -27,10 +27,16 @@ header {
     border: 5px solid #2c2828;
 }
 
+/* Top social links (in header) */
 .social-links a {
-    color: white;
+    color: white;     
     margin: 0 10px;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4B3621;    
 }
 
 #about, #skills {
@@ -65,9 +71,10 @@ header {
     color: #666;
 }
 
+/* Styling for contact section icons */
 .contact-icon {
     text-decoration: none;
-    color: black;
+    color: black;      
     margin: 0 15px;
 }
 
@@ -78,6 +85,7 @@ header {
     align-items: center;
     height: 100%;
 }
+
 .circle-icon {
     width: 60px;
     height: 60px;
@@ -88,22 +96,12 @@ header {
     justify-content: center;
     transition: all 0.3s ease;
     font-size: 28px;
-    color: #665202;  /* True brown color */
+    color: #665202; 
     margin: 10px;
 }
 
 .circle-icon:hover {
-    background: #d2b48c;  /* Light brown background on hover */
-    color: white;  /* Icon text turns white on hover */
+    background: #d2b48c; 
+    color: white;        
     transform: scale(1.1);
 }
-
-.social-links a {
-    color: #665202;  /* Set default true brown color */
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #4B3621;  /* Darker brown on hover */
-}
-
